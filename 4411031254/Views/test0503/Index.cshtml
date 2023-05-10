@@ -14,7 +14,7 @@
 
 <p><b> 粗體</b></p>
 <p><i> 斜綫</i></p>
-<p><u> 底綫</u</p>
+<p><u> 底綫</u></p>
 <p><a href="https://www.google.com"> Google </a></p>
 
 
@@ -34,4 +34,23 @@
 
 
     </div>
+
+}
+
+@{
+    var message = "hello world!";
+    var isStudent = true;
+}
+
+<p>@message</p>
+<p>@DateTime.Now</p>
+
+
+@if (isStudent)
+{
+    <p> 我是學生</p>
+}
+else
+{
+    <p>我不是學生</p>
 }
