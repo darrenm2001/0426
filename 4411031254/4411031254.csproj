@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\test0503Controller.cs" />
+    <Compile Include="Controllers\waterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,6 +166,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\test0503\Index.cshtml" />
     <Content Include="Views\test0503\HW3.cshtml" />
+    <Content Include="Views\water\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
