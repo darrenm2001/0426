@@ -8,7 +8,9 @@
 
 @using (Html.BeginForm("index", "water", FormMethod.Get))
 {
-    <p>姓名：@Html.TextBox(name: "name")</p>
+    <p>姓名:@Html.TextBox(name: "name")</p>
     <p>體重:@Html.TextBox(name: "weight")</p>
+    <P>你好，@ViewBag.name,建议喝水量:@ViewBag.result</p>
+
     <input type="submit" value="送出" />
 }
