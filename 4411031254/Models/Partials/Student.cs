@@ -30,5 +30,9 @@ namespace _4411031254.Models
         [Required(ErrorMessage = "請輸入電子郵件")]
         [EmailAddress]
         public string Email{get; set;}
+
+        [Required(ErrorMessage = "必填欄位")]
+        [Display(Name = "是否注冊")]
+        public bool IsActive{get; set;}
     }
 }
