@@ -20,7 +20,7 @@ namespace _4411031254.Models
         [Required(ErrorMessage ="請輸入名字")]
         [Display(Name ="姓名")]
         [StringLength(12,ErrorMessage = "最多只能輸入10個字")]
-        public string Name{get; set;}
+        public string Username{get; set;}
 
         [Required(ErrorMessage = "請輸入學號")]
         [Display(Name = "學號")]
